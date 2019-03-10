@@ -133,10 +133,10 @@ def helper():
         print bcolors.OKBLUE+"Vulnerability Information:"+bcolors.ENDC
         print "--------------------------"
         print "\t"+vul_info('c')+": Requires immediate attention as it may lead to compromise or service unavailability."
-        print "\t"+vul_info('h')+"    : May not lead to an immediate compromise, but there are high chances of probability."
-        print "\t"+vul_info('m')+"  : Attacker may correlate multiple vulnerabilities of this type to launch a sophisticated attack."
-        print "\t"+vul_info('l')+"     : Not a serious issue, but it is recommended to attend the finding."
-        print "\t"+vul_info('i')+"    : Not classified as a vulnerability, simply an useful informational alert to be considered.\n"
+        print "\t"+vul_info('h')+": May not lead to an immediate compromise, but there are high chances of probability."
+        print "\t"+vul_info('m')+": Attacker may correlate multiple vulnerabilities of this type to launch a sophisticated attack."
+        print "\t"+vul_info('l')+": Not a serious issue, but it is recommended to attend the finding."
+        print "\t"+vul_info('i')+": Not classified as a vulnerability, simply an useful informational alert to be considered.\n"
 
 
 # Clears Line
